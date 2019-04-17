@@ -46,7 +46,7 @@ class Toolbox : EditorWindow {
         // Createst the fourth row of buttons (Project Settings controls)
         SetProjectSettingsRow(content);
         CreateProjectSettingsButtons(style, content);
-	}
+    }
 
     // Creates a label and customizes settings for the 3D Object buttons
     static void Set3DObjectRow(GUIContent content) {
